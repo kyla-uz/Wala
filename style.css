@@ -1,0 +1,88 @@
+/* body */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Hedear */
+header{
+    background-color: indianred;
+    color:antiquewhite;
+    text-align: center;
+    padding: 30px 20px;
+}
+/* Navigation */
+nav{
+    background-color: greenyellow;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    color: skyblue;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a :hover{
+    color: hotpink;
+}
+
+/* Section */
+section{
+    padding: 40px 20px;
+}
+
+/* Alternate Background */
+section:nth-child(even) {
+background-color: azure;
+}
+
+/* Headings */
+h2{
+    text-align: center;
+    color: skyblue;
+}
+
+/* Skills */
+ul{
+    max-width: 400px;
+    margin:auto;
+
+}
+
+li{
+    padding: 5x;
+}
+
+/* Project */
+.project{
+    border: 1px solid hotpink;
+    backdrop-filter: blueviolet;
+}
+
+/* Form or Contact */
+
+form{
+max-width: 400px;
+margin: auto;
+}
+
+input, textarea{
+    width: 100px;
+    padding: 100px;
+    margin: 10px 0;
+    border: 1px solid greenyellow;
+}
+
+input[type="submit"] {
+background-color: blueviolet;
+color: greenyellow;
+border: black;
+cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: hotpink;
+}
